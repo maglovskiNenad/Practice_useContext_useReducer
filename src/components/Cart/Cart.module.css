@@ -1,0 +1,35 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.amount {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+.btnActions {
+  margin: auto;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: white;
+  margin: 5px 5px;
+  text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
